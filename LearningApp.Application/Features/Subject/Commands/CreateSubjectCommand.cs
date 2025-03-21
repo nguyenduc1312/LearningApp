@@ -1,5 +1,4 @@
-﻿using LearningApp.Application.DTOs;
-using LearningApp.Application.Features.Common;
+﻿using LearningApp.Application.Features.Common;
 using MediatR;
 using System;
 using System.Collections.Generic;

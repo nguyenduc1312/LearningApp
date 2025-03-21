@@ -1,10 +1,9 @@
-﻿using LearningApp.Application.DTOs;
-using LearningApp.Infrastructure.Repositories.Interfaces;
-using MediatR;
+﻿using MediatR;
 using LearningApp.Domain.Entities;
 using Microsoft.Extensions.Logging;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using LearningApp.Infrastructure.Repositories.SQL.Interfaces;
 
 namespace LearningApp.Application.Features.Subject.Commands
 {

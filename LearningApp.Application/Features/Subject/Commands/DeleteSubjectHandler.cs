@@ -1,5 +1,5 @@
 ﻿using LearningApp.Domain.Entities;
-using LearningApp.Infrastructure.Repositories.Interfaces;
+using LearningApp.Infrastructure.Repositories.SQL.Interfaces;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using System;

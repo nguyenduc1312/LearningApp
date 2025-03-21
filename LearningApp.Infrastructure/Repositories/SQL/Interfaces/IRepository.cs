@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LearningApp.Infrastructure.Repositories.Interfaces
+namespace LearningApp.Infrastructure.Repositories.SQL.Interfaces
 {
     public interface IRepository<T> where T : BaseEntity
     {

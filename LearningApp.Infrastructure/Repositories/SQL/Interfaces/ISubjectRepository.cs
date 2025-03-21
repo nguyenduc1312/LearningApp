@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LearningApp.Infrastructure.Repositories.Interfaces
+namespace LearningApp.Infrastructure.Repositories.SQL.Interfaces
 {
     public interface ISubjectRepository : IRepository<Subjects>
     {

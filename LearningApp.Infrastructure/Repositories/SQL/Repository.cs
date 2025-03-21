@@ -1,6 +1,6 @@
 ﻿using LearningApp.Domain.Entities;
 using LearningApp.Infrastructure.Data;
-using LearningApp.Infrastructure.Repositories.Interfaces;
+using LearningApp.Infrastructure.Repositories.SQL.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace LearningApp.Infrastructure.Repositories
+namespace LearningApp.Infrastructure.Repositories.SQL
 {
     public class Repository<T> : IRepository<T> where T : BaseEntity
     {
